@@ -7,7 +7,7 @@ Purpose: Perform simple tiled raster calculations (AKA "map algebra")
 Notes:   - Can handle rasters with different extents and coordinate systems
            as long as they overlap.
          - Cellsizes must be the same.
-         - If numexpr is installed, the gdal_calculate will try to use 
+         - If numexpr is installed, gdal_calculate will try to use 
            numexpr.evaluate to process the expression as it is much faster.
            However, numexpr expressions are very limited... 
            Tiled processing not supported, No on-the-fly reprojection or 
