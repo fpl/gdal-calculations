@@ -45,6 +45,7 @@ gdal.UseExceptions()
 ds1=Dataset('../testdata/landsat_utm50.tif')#Projected coordinate system
 ds2=Dataset('../testdata/landsat_geo.tif')  #Geographic coordinate system
 
+#You can use dataset[subscript] to access bands
 #red=ds1[2].astype(np.float32) #You can use numpy type conversion (is slower)
 red=Float32(ds1[2]) #or use one of the provided type conversion functions (quicker as they use VRT's)
 nir=ds2[3]
