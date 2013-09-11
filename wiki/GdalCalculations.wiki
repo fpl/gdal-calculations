@@ -1,5 +1,4 @@
 #summary raster calculations library
-#labels GDAL,Raster,Calculations
 
 = The raster calculations library =
 

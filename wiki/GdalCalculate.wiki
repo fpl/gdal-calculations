@@ -1,5 +1,5 @@
 #summary commandline raster calculator
-#labels GDAL,Raster,Calculator
+
 =The commandline raster calculator=
 <pre> Name:    gdal_calculate
 Purpose: Perform simple tiled raster calculations (AKA "map algebra") 
