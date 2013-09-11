@@ -1,4 +1,5 @@
 #summary raster calculations library
+#labels Featured
 
 = The raster calculations library =
 
