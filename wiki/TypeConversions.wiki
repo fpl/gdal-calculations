@@ -3,7 +3,7 @@
 
 = Type conversion helper functions =
 
-The following type conversion functions can be imported from the gdal_calculations package or used in the gdal_calculate script.  The return a gdal_calculations.Dataset object.  They don't convert scalar values.
+The following type conversion functions can be imported from the gdal_calculations package or used in the gdal_calculate script.  The yreturn a gdal_calculations.Dataset object.  They don't convert scalar values.
 {{{
 from gdal_calculations import *
 Byte(dataset_or_band)
