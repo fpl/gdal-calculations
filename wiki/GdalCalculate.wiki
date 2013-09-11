@@ -1,4 +1,5 @@
 #summary commandline raster calculator
+#labels Featured
 
 =The commandline raster calculator=
 <pre> Name:    gdal_calculate
