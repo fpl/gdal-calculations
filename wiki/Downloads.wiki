@@ -1,0 +1,5 @@
+#labels Featured
+#Downloads
+= Downloads =
+
+Due to Google deprecating downloads from Google Code projects, downloads are hosted on [http://goo.gl/FHB92o BinTray].
