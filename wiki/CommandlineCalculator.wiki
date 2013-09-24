@@ -39,6 +39,7 @@ Optional parameters:
                        uses numpy.ma.MaskedArray to handle NoData values
                        MaskedArrays can be much slower...
      --notile        : don't use tiled processing, faster but uses more memory (Default=False)
+     --numexpr       : Enable numexpr evaluation (Default=False)
      --overwrite     : overwrite if required (Default=False)
      --reproject     : reproject if required (Default=False)
                        datasets are projected to the SRS of the first input
