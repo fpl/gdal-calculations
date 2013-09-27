@@ -63,8 +63,8 @@ Examples:
 
        #Using numexpr. Note limitations.
        gdal_calculate --outfile=../testdata/ndvi.tif       \
-            --calc="((nir-red)/(nir+red))" \
-            --red=../testdata/singleband_red_utm50.tif  \
-            --nir=../testdata/singleband_nir_utm50.tif    \
-            --overwrite --notile
+            --calc="((nir-red)/(nir+red))"                 \
+            --red=../testdata/singleband_red_utm50.tif     \
+            --nir=../testdata/singleband_nir_utm50.tif     \
+            --overwrite --notile --numexpr
 </pre>           
