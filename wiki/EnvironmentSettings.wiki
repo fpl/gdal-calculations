@@ -38,6 +38,7 @@ Notes:
           - Default = None
         tempdir
           - temporary working directory
+          - supports GDAL /vsimem (in memory) virtual filesystem
           - Default = tempfile.tempdir
         tiled
           - use tiled processing - True/False
