@@ -1,0 +1,76 @@
+GDAL Calculations 1.0 2014-06-25 (AEST)
+=======================================
+Additions
+---------
+* Env: add tempoptions environment option
+* Add NewDataset class
+
+Fixes
+-----
+* Fix errors with _some_ numpy ufuncs - Issue #4
+* Fix create_copy with Band objects
+* Fix gdal_calculate expressions with spaces
+* Improve gdal_calculate progress reporting
+
+GDAL Calculations 0.9 2014-03-12 (AEST)
+=======================================
+Fixes
+-----
+* Fix error with unsupported gdal.GRA_Average resampling in gdal<1.10
+
+GDAL Calculations 0.8 2013-11-02 (AEST)
+=======================================
+Fixes
+-----
+* Fix Issue 2 gdal_calculate fails with ConvertedDataset 	 
+* Fix Issue 3 Output bands out of order when calculations run on multiband raster 
+
+GDAL Calculations 0.7 2013-09-27 (AEST)
+=======================================
+Fixes
+-----
+* Fix megabug in operations with scalars where Dataset/Band objects are the right operands
+* Set correct no. of bands for ndarray operations
+* Enable operations with zero as the other operand
+
+GDAL Calculations 0.6 2013-09-23 (AEST)
+=======================================
+Additions
+---------
+* Env: add ntiles (number of tiles to process at once) and enable_numexpr attributes
+* gdal_calculate: add --numexpr flag
+
+Fixes
+-----
+* Fix segfault in ClippedDataset caused by setting NoData node incorrectly
+* Work around issues with numpy methods and __array_struct__ attribute calls.
+* Fix passing some datasets to numpy functions
+* Make /vsimem processing optional and set with Env.tempdir
+* Handle np.bool types without gdal autocasting to float64
+* More informative error when getattr fails
+* Refactor gdal_dataset.RasterLike.apply_environment
+
+GDAL Calculations 0.5 2013-09-14 (AEST)
+=======================================
+Additions
+---------
+* Added srs to environment setting
+
+Fixes
+-----
+* Fix some bugs found autotesting
+
+GDAL Calculations 0.4 2013-09-11 (AEST)
+=======================================
+Additions
+---------
+* Added snap to dataset environment setting
+* Added cellsize environment setting
+* Added autotest script and test data
+
+Fixes
+-----
+* Fixed clipped temp datasets bug
+* Fix extent handling bug
+* Handle warped VRTs
+* Fix numerous bugs found autotesting
